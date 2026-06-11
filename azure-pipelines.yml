@@ -80,7 +80,7 @@ stages:
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
         backendServiceArm: '$(azureSubscription)'
         backendAzureRmResourceGroupName: 'tfstate-rg'
-        backendAzureRmStorageAccountName: 'tfstatestorage2026'
+        backendAzureRmStorageAccountName: 'tfstatestoragemakonya'
         backendAzureRmContainerName: 'tfstate'
         backendAzureRmKey: 'hello-world.terraform.tfstate'
       displayName: 'Terraform Init'
