@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
-  default     = "rg-hello-world-makonya"
+  default     = "rg-hello-world-makonya-new"
 }
 
 variable "location" {
