@@ -13,7 +13,7 @@ variable "location" {
 variable "app_name" {
   description = "Name of the Azure App Service (must be globally unique)"
   type        = string
-  default     = "hello-world-python-app-2026"
+  default     = "hello-world-python-app-2026-makonya"
 }
 
 variable "tags" {
